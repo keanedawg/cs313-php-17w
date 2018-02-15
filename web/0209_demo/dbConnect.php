@@ -6,7 +6,7 @@ function get_db() {
 	if (empty($dbUrl)) {
 		$dbUser = "note_user";
 		$dbPassword = "orange";
-		$dbPort = "5432";
+		$dbPort = "5433";
 		$dbHost = "localhost";
 		$dbName = "notebook";
 
